@@ -7,10 +7,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:get/get.dart';
 
-import 'package:coconut_disease_detection/utils/exceptions/firebase_auth_exceptions.dart';
-import 'package:coconut_disease_detection/utils/exceptions/format_exceptions.dart';
-import 'package:coconut_disease_detection/utils/exceptions/platform_exceptions.dart';
-import 'package:coconut_disease_detection/utils/exceptions/firebase_exceptions.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/firebase_auth_exceptions.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/format_exceptions.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/platform_exceptions.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/firebase_exceptions.dart';
 
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';

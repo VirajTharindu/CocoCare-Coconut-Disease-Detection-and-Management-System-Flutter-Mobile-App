@@ -1,3 +1,4 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "cmake.sourceDirectory": "C:/Projects/Mobile App Developement/Flutter/CocoCare-Coconut Disease Detection and Management System-Flutter Mobile App/linux"
 }
