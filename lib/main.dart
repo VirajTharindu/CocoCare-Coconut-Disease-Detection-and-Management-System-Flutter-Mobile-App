@@ -1,6 +1,6 @@
 import 'package:coconut_disease_detection/data/repositories/authentication/authentication_repository.dart';
 import 'package:coconut_disease_detection/data/repositories/tracking/tracking_repository.dart';
-import 'package:coconut_disease_detection/features/personalization/controllers/user_controller.dart';
+import 'package:coconut_disease_detection/features/personalization/viewmodels/user_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:get/get.dart';
@@ -17,8 +17,8 @@ Future<void> main() async {
     (FirebaseApp value) => Get.put(AuthenticationRepository()),
   );
 
-  // Initialize UserController instance
-  Get.put(UserController());
+  // Initialize UserViewModel instance
+  Get.put(UserViewModel());
 
   // Initialize TrackingRepository as a singleton
   Get.put(TrackingRepository());

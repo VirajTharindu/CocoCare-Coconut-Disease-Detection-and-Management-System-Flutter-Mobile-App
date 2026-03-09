@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:coconut_disease_detection/features/authentication/models/tracking_model.dart';
-import 'package:coconut_disease_detection/utils/exceptions/firebase_exceptions.dart';
-import 'package:coconut_disease_detection/utils/exceptions/format_exceptions.dart';
-import 'package:coconut_disease_detection/utils/exceptions/platform_exceptions.dart';
+import 'package:coconut_disease_detection/features/tracking/models/tracking_model.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/firebase_exceptions.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/format_exceptions.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/platform_exceptions.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';

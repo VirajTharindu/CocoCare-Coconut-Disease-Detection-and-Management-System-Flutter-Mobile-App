@@ -1,12 +1,12 @@
 import 'package:coconut_disease_detection/data/repositories/user/user_repository.dart';
-import 'package:coconut_disease_detection/features/authentication/screens/login/login.dart';
-import 'package:coconut_disease_detection/features/authentication/screens/onboarding/onboarding.dart';
-import 'package:coconut_disease_detection/features/authentication/screens/signup/verify_email.dart';
-import 'package:coconut_disease_detection/navigation_menu.dart';
-import 'package:coconut_disease_detection/utils/exceptions/firebase_auth_exceptions.dart';
-import 'package:coconut_disease_detection/utils/exceptions/format_exceptions.dart';
-import 'package:coconut_disease_detection/utils/exceptions/platform_exceptions.dart';
-import 'package:coconut_disease_detection/utils/exceptions/firebase_exceptions.dart';
+import 'package:coconut_disease_detection/features/authentication/views/login/login.dart';
+import 'package:coconut_disease_detection/features/authentication/views/onboarding/onboarding.dart';
+import 'package:coconut_disease_detection/features/authentication/views/signup/verify_email.dart';
+import 'package:coconut_disease_detection/features/navigation/views/navigation_menu.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/firebase_auth_exceptions.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/format_exceptions.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/platform_exceptions.dart';
+import 'package:coconut_disease_detection/core/utils/exceptions/firebase_exceptions.dart';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
